@@ -2,9 +2,16 @@
 
 int main() {
     
-    printf("Name:\tJawaher Jabbar\n");
-    printf("Roll No:\t25k-6570\n");
-    printf("Section:\tA\n");
+    int age = 18;
+    float height = 5.8f;
+    double gpa = 3.75432;
+    char grade = 'A';
+
+   
+    printf("Integer (age): %d\n", age);        
+    printf("Float (height): %.2f\n", height);  
+    printf("Double (GPA): %.5lf\n", gpa);      
+    printf("Character (grade): %c\n", grade);  
 
     return 0;
 }
