@@ -1,17 +1,27 @@
 #include <stdio.h>
 
 int main() {
-    
-    int age = 18;
-    float height = 5.8f;
-    double gpa = 3.75432;
-    char grade = 'A';
+    int num;
+    float fnum;
+    char ch;
 
    
-    printf("Integer (age): %d\n", age);        
-    printf("Float (height): %.2f\n", height);  
-    printf("Double (GPA): %.5lf\n", gpa);      
-    printf("Character (grade): %c\n", grade);  
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+ 
+    printf("Enter a float: ");
+    scanf("%f", &fnum);
+
+  
+    printf("Enter a character: ");
+    scanf(" %c", &ch);  
+
+  
+    printf("\nYou entered:\n");
+    printf("Integer: %d\n", num);
+    printf("Float: %.2f\n", fnum);
+    printf("Character: %c\n", ch);
 
     return 0;
 }
